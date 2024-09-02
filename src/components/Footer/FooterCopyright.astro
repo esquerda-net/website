@@ -1,9 +1,17 @@
----
-import { SITE_COPYRIGHT_AUTHOR, SITE_COPYRIGHT_LINK } from '../../constants'
-const today = new Date()
----
+<p class="relative text-neutral-500 text-sm text-center leading-none" id="copyright">
+  <span property="dct:title">Esquerda.net.br</span>
 
-<p class="relative text-neutral-500 text-sm text-center leading-none">
-  Created by <a href={SITE_COPYRIGHT_LINK} class="text-neutral-400 hover:text-neutral-200" target="_blank">{SITE_COPYRIGHT_AUTHOR}</a>
-  &copy; {today.getFullYear()} All rights reserved
+  por <a rel="cc:attributionURL dct:creator" property="cc:attributionName"
+         href="https://bsky.app/profile/fabio.esquerda.net.br">Fábio Batista</a>
+
+  é licenciado em
+
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank"
+     class="inline-flex flex-row items-center gap-0.5"
+     rel="license noopener noreferrer">
+    <span class="me-1">CC BY-SA 4.0</span>
+    <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+  </a>
 </p>

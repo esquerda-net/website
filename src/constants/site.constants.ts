@@ -1,4 +1,2 @@
-export const SITE_TITLE = '🐶 Hito Blog'
-export const SITE_DESCRIPTION = 'Welcome to my website!'
-export const SITE_COPYRIGHT_AUTHOR = 'damenor'
-export const SITE_COPYRIGHT_LINK = 'https://damenor.com'
+export const SITE_TITLE = 'Esquerda.net.br'
+export const SITE_DESCRIPTION = 'Cantinho dos webcomunistas.'

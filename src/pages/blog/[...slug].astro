@@ -6,7 +6,7 @@ import { Prose } from '../../components'
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog')
-  return posts.map((post: CollectionEntry<'blog'>) => ({
+  return posts.map((post : CollectionEntry<'blog'>) => ({
     params: { slug: post.slug },
     props: post,
   }))
@@ -19,6 +19,6 @@ const { Content } = await post.render()
 
 <LayoutBlogPost {...post.data}>
   <Prose>
-    <Content />
+    <Content/>
   </Prose>
 </LayoutBlogPost>
